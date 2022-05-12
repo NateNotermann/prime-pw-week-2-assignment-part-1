@@ -1,30 +1,63 @@
 // REQUIRED FEATURES:
+
+console.log("Hello world!");
+
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 
+let firstName = 'Nate ';  //let equals variable.  "firstName is name of variable //added space at the end for console when console logging whole name
+console.log( firstName );
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-
+let lastName = 'Notermann';
+console.log( lastName );
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 
+let fullName = firstName + lastName; 
+
+
 // 4 - Console log the value of `fullName`
 
+console.log( fullName );
+console.log( " My full name is", fullName );
+
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
+let luckyNumber = 3;
+console.log( luckyNumber );
 
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
+console.log( "My name is", ( fullName + "," ), "and I think", luckyNumber, "is a winner!");
+
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
+let adventurous = true;
+console.log( adventurous );
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
+let food = [ "pizza", "burger", "chicken fingers", "fried chicken", "beer" ];
+console.log( food );
+
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
+let pets = 1;
+console.log( pets );
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
+let friendsPets = 2;
+console.log( friendsPets );
+
 
 // 11 - Add two pets to your `pets` variable
+console.log( "the total number of pets I have was", ( pets + ".")); // not sure if there is a better or more elegant way to add punctuation after a variable
+pets = pets + 2;
+console.log( pets );
+console.log( "But now that I added 2 I have", pets, "which is TOO many." );
+
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+const allowedPets = 1;
+console.log( allowedPets);
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
