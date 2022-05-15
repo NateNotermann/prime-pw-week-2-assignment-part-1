@@ -88,7 +88,7 @@ if ( adventurous == true ) {
 // console log "Roll the dice!"
 // luckyNumber = 2; //testing if "I can have more pets" condition works when lucky number is 2. it works!
 // luckyNumber = 2; //testing if code if lucky number is 2. it works
-if ( luckyNumber == 2 && adventurous == true ) {
+if ( luckyNumber == 2 && adventurous == true ) { //it is a "compound" conditional becasue it requires 2 coniditons be equal to a value.
     console.log( "Roll the dice!");
 }
 
@@ -100,6 +100,22 @@ if ( luckyNumber == 2 && adventurous == true ) {
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
+console.log( pets ); 
+// (pets equals 3 right now, tests the greater than condition. It works.
+// pets = 0; //testing less than condition, it works
+// pets = 1; //testing equal to condition. works 
+
+if ( pets < allowedPets ) {
+    console.log( 'I can have more Pets!' );
+}
+else if ( pets == allowedPets ) {
+    console.log( 'I have enough pets' );
+}
+else {
+    console.log( 'I have too many pets!');
+}
+
+
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
@@ -107,6 +123,18 @@ if ( luckyNumber == 2 && adventurous == true ) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
+
+
+console.log( friendsPets ); 
+console.log( pets );
+// let mostPets = 1       // might come back to this
+
+// if ( pets < friendsPets ) {
+//     mostPets = pets;
+    
+// }
+// console.log( mostPets );
+
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
