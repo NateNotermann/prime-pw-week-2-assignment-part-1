@@ -18,7 +18,7 @@ let fullName = firstName + lastName;
 // 4 - Console log the value of `fullName`
 
 console.log( fullName );
-console.log( " My full name is", fullName );
+console.log( "My full name is", fullName );
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 let luckyNumber = 3;
@@ -59,12 +59,25 @@ console.log( "But now that I added 2 I have", pets, "which is TOO many." );
 const allowedPets = 1;
 console.log( allowedPets);
 
+
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
+
+// adventurous = false; //testing the false option. it worked
+if ( adventurous == true ) {
+    console.log( 'Adventures are great');
+}
+    else {
+        console.log( "How about we stay home?" );
+    }
 
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
+
+if ( luckyNumber == 2 ) {
+    console.log( "I can have ");
+}
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
